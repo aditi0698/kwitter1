@@ -1,0 +1,45 @@
+
+<html>
+<head>
+	<title>Kwitter</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet"  href="style.css">
+
+</head>
+<body>
+<center>
+	
+	<h1 id="header">	
+		Kwitter	
+	    <img src="m2.png" id="logo">
+    </h1>
+
+	<div id="login_div">
+		<h3 >Join kwitter today to chat with your friends</h3>
+
+		<h4>Login in now!</h4>
+		
+		
+		<h5>User Name:</h5>
+		
+		<input  id="input1" class="form-control" placeholder="User Name">
+		<br><br>
+
+		<button id="login_button" class="btn btn-primary" onclick="login()">Log in</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+<script src="kwitter.js"></script>
+</html>
